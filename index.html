@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ezra Bridger">
+    <meta name="description" content="This is the Log In page for visiting 
+    your account on a specific website.">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icons8-log-in-64.png">
+</head>
+<body>
+    <header>
+        <h1>Login form using HTML & CSS</h1>
+    </header>
+    <main>
+        <form action="https://httpbin.org/get" method="get">
+           
+            <div id="full">
+            <div id="top">
+            <p>Sign in</p>
+            <p style="color: rgba(255,255,255,0.6);">
+                Sign in with your username and password
+            </p> 
+            </div>
+            
+            <div id="middle">
+                <p>
+                    <label for="username">Your username</label>
+                    <br>
+                    <input type="text" name="username" id="username" 
+                    placeholder="Enter Username" autofocus required
+                    size="55" height="30">
+
+                </p>
+                <p>
+                    <label for="password">Your password</label>
+                    <br>
+                    <input type="password" name="password" id="password" 
+                    placeholder="Enter Password" required size="55" 
+                    minlength="8">
+
+                </p>
+                <p>
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember Me</label>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <a href="#">Forgot Password?</a>
+                </p>
+            </div>
+            <div id="bottom">    
+                <p>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Login</button>
+                <button type="reset">Reset</button>
+                </p>
+
+                <p>
+                    Not a member?
+                    <a href="#">Register Here!</a>
+                </p>
+            </div>
+            </div>
+          
+        </form>
+    </main>
+</body>
+</html>

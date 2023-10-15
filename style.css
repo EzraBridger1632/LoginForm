@@ -1,0 +1,62 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(255,255,255);
+    background-color:rgb(30, 128, 163);
+    padding: 10px;
+}
+header{
+    padding: 10px;
+    text-align: center;
+}
+form{
+    padding: 28px;
+}
+input{
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+}
+button{
+    border-radius: 5px;
+    margin: 5px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 75px;
+    padding-right: 75px; 
+    color: white;
+    background-color: rgb(25, 97, 198);
+    font-size: 20px;
+}
+div#top{
+    text-align:center;
+    align-items: center;
+    padding-top: 20px;
+}
+div#middle{
+    text-align:left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+div#bottom{
+    text-align:center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+div#full{
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 550px;
+    margin: auto;
+}
+a:link{
+    color: rgb(0, 141, 241);
+}
+a:hover{
+    color:aliceblue;
+}
+a:visited{
+    color: rgb(149, 255, 0);
+}
